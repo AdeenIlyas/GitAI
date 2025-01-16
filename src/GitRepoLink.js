@@ -5,9 +5,7 @@ import { faRobot, faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 import logoLight from './assets/logo-light.png';
 import logoDark from './assets/logo-dark.png';
 import videoBackground from './assets/vid.mp4';
-
 import './GitRepo.css';
-import SplashCursor from "./SplashCursor";
 
 const GitRepoLink = () => {
   const [repoLink, setRepoLink] = useState("");
@@ -78,7 +76,6 @@ const GitRepoLink = () => {
 
   return (
     <>
-      {isSplashActive && <SplashCursor />}
       <div className="video-background">
         <video
           autoPlay
