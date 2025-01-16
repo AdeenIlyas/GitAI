@@ -3,7 +3,6 @@ import { useNavigate, Link, useLocation } from 'react-router-dom';
 import { useUser } from './contexts/UserContext';
 import './Login.css';
 import googleLogo from './assets/google-logo.png';
-import SplashCursor from './SplashCursor';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -100,11 +99,7 @@ const Login = () => {
 
   return (
     <>
-      {showSplash && (
-        <div className="splash">
-          <SplashCursor />
-        </div>
-      )}
+     
       <div className="login-container">
         <h2>Welcome Back{typedMessage}</h2>
         <form onSubmit={handleSubmit}>
