@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './SignUp.css';
-import SplashCursor from './SplashCursor';
+// import SplashCursor from './SplashCursor';
 
 const SignUp = () => {
   const [formData, setFormData] = useState({
@@ -88,7 +88,7 @@ const SignUp = () => {
   return (
     <div
       className="login-container"
-      onMouseEnter={enableSplash} // Re-enable splash when hovering outside input fields
+      // onMouseEnter={enableSplash} // Re-enable splash when hovering outside input fields
     >
       <h2>Create Account</h2>
       <form onSubmit={handleSubmit}>
@@ -182,7 +182,7 @@ const SignUp = () => {
         Already have an account? <Link to="/login">Log in</Link>
       </div>
 
-      {isSplashEnabled && <SplashCursor />} {/* Render SplashCursor conditionally */}
+      {/* {isSplashEnabled && <SplashCursor />} Render SplashCursor conditionally */}
     </div>
   );
 };
