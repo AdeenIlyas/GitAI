@@ -1,5 +1,8 @@
 # GitAI
-![image](https://github.com/user-attachments/assets/f059d20d-708f-4ef2-a821-cb8f868a4443)
+
+
+https://github.com/user-attachments/assets/e19948fb-cef5-4f9d-9d7f-1aa5986ec654
+
 
 GitAI is an interactive chatbot application that allows users to enter a GitHub repository URL and interact with a chatbot to ask questions about the repository. Built using the LangChain framework and GPT-4 model, GitAI leverages Retrieval-Augmented Generation (RAG) to provide accurate and context-aware answers based on the contents of the repository.
 
