@@ -26,6 +26,6 @@ GitAI is an interactive chatbot application that allows users to enter a GitHub 
   
 - Run node server.mjs
 
-Now you can provide the repo of the url and interact with the chatbot 
+Now you can provide the repo of the url and interact with the Chatbot! 
 
 
