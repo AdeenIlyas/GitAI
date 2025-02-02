@@ -16,7 +16,7 @@ GitAI is an interactive chatbot application that allows users to enter a GitHub 
 - git clone https://github.com/AdeenIlyas/GitAI.git
   
 - cd GitAI
-  
+
 - npm start
 
 ### Start Backend:
